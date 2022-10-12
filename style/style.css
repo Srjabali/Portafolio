@@ -3,32 +3,62 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body{
     background: #414345;
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
-.header{
-    background: #232526;
-}
 .contenedor {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     height: 100vh;
-
     text-align: center;
 }
-
-.main-menu__top{
+.header{
+    background: #181818;
+    position: sticky;
+}
+.header__header{
     background: black;
-    padding: 30px 0;
+    padding: 30px 10px;
 }
 img{
     width: 100px;
 }
-
-a{
+.header__nav{
+    width: 100%;
+    border-top: 1px solid #282828;
+}
+.header__nav__list a{
+    width: 100%;
+    display: block;
     text-decoration: none;  
     color: #a0a0a0;
+    border-bottom: 1px solid #282828;
+    line-height: 4rem;
+}
+.header__social{
+    height: 20rem;
+}
+
+.header__social a{
+    width: 100%;
+    display: block;
+    text-decoration: none;  
+    color: #a0a0a0;
+    line-height: 5rem;
+}
+
+.body{
+    width: 100%;
+    overflow: auto;
+}
+
+.about{
+    background: green;
+    height: 650px;
+}
+.skil {
+    background: red;
+    height: 650px;
 }
