@@ -4,13 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background: #414345;
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
 .contenedor {
     width: 100%;
-    max-width: 1200px;
     height: 100vh;
     text-align: center;
 }
@@ -18,12 +17,29 @@ body{
     background: #181818;
     position: sticky;
 }
+
 .header__header{
     background: black;
     padding: 30px 10px;
 }
+.menu__title{
+    text-decoration: none;
+}
 img{
     width: 100px;
+}
+.menu__title h1{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 1px;
+    font-size: 1.5rem;
+}
+.header__header p{
+    font-family: 'Open Sans';
+    color: #a5a5a5;
+    font-size: 1rem;
+    margin-top: 1rem;
+
 }
 .header__nav{
     width: 100%;
@@ -38,7 +54,8 @@ img{
     line-height: 4rem;
 }
 .header__social{
-    height: 20rem;
+    height: 10rem;
+    gap: 10px;
 }
 
 .header__social a{
@@ -52,13 +69,23 @@ img{
 .body{
     width: 100%;
     overflow: auto;
+}  
+.body>div{
+    height: 100vh;
 }
+.body__home{
+    padding: 0 40px;
+}
+.body__home__hi h1{
+    font-size: 6rem;
+}
+.body__home img{
+    height: 60%;
+}
+ 
 
-.about{
-    background: green;
-    height: 650px;
-}
-.skil {
-    background: red;
-    height: 650px;
-}
+
+
+
+
+

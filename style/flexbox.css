@@ -4,11 +4,29 @@
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: column;
 }
 .header__social{
     display: flex;
-    gap: 10px;
+
 }
+.body__home{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.body__home__hi{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.body__home__hi__h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
 
