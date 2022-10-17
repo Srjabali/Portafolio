@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    background: white;
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
@@ -25,7 +25,7 @@ body{
 .menu__title{
     text-decoration: none;
 }
-img{
+.menu__title img{
     width: 100px;
 }
 .menu__title h1{
@@ -57,7 +57,6 @@ img{
     height: 10rem;
     gap: 10px;
 }
-
 .header__social a{
     width: 100%;
     display: block;
@@ -72,19 +71,63 @@ img{
 }  
 .body>div{
     height: 100vh;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
 }
-.body__home{
+.body > div{
     padding: 0 40px;
 }
+.body__home__hi{
+    text-align: start
+}
 .body__home__hi h1{
-    font-size: 6rem;
+    font-size: 5rem;
+    font-weight: bold;
 }
 .body__home img{
-    height: 60%;
+    width: 220px;
 }
+
+/*body about */
+.body__about__my{
+    text-align: start;
+    width: 50vw;
+}
+.body__about__my h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.body__about img{
+    width: 220px;
+}
+
+/* body skills */
+.body__skills > section{
+    width: 45vw;
+}
+.body__skills__experience{
+    text-align: start;
+}
+
+.body__skills__skills > div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #282828;
+}
+
+
  
-
-
+@media (max-width: 900px){
+    .body__home__hi h1{
+        font-size: calc(5vw);
+    }
+    .body__home img{
+        width: calc(25vw);
+    }
+    .body__about img{
+        width: calc(25vw);
+    }
+}
 
 
 

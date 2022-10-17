@@ -1,32 +1,51 @@
-.contenedor{
+.contenedor {
     display: flex;
 }
-.header{
+/* header */
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
 }
-.header__social{
+
+.header__social {
     display: flex;
 
 }
-.body__home{
+/* body home */
+.body__home {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-.body__home__hi{
+.body__home__hi {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-}
-.body__home__hi__h1{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+    gap: 30px;
 }
 
+/* body about */
+.body__about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body__about__my{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+/* body skills */
+.body__skills{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.body__skills__skills{
+    display: flex;
+}
 
 
