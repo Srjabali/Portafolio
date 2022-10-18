@@ -75,7 +75,7 @@ body{
     background-blend-mode: multiply,multiply;
 }
 .body > div{
-    padding: 0 40px;
+    padding: 0 100px 0 40px;
 }
 .body__home__hi{
     text-align: start
@@ -103,18 +103,52 @@ body{
 
 /* body skills */
 .body__skills > section{
-    width: 45vw;
+    height: 90vh;
 }
 .body__skills__experience{
     text-align: start;
+    width: 46vw;
 }
 
-.body__skills__skills > div{
+.body__skills__skills{
+    width: 22vw;
+}
+
+.body__skills__skills1{
+    width: 22vw;
+}
+
+.body__skills__experience h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.body__skills__list{
     width: 100px;
     height: 100px;
     border: 1px solid #282828;
+    padding: 10px;
+}
+.body__skills__list1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #282828;
+    padding: 20px;
+
+    text-align: start;
 }
 
+.body__skills__list1 > h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+h3{
+    font-size: .8rem;
+}
 
  
 @media (max-width: 900px){

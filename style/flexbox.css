@@ -42,10 +42,43 @@
 .body__skills{
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 40px;
 }
-.body__skills__skills{
+.body__skills > section{
+display: flex;
+justify-content: center;
+}
+
+.body__skills__experience{
+
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.body__skills__skills > ul{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body__skills__list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.body__skills__skills1 > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.body__skills__list1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 
