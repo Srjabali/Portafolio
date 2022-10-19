@@ -149,8 +149,23 @@ h2{
 h3{
     font-size: .8rem;
 }
+/* formacion */
+.body__study > section{
+    width: 27rem;
+}
+.body__study__ul{
+    height: 90vh;
+}
+.body__study__lista{
+    width: 350px;
+    height: 250px; 
+    border: 1px solid white;
+}
+.body__study__lista:nth-child(1) > img{
+    width: 332px;
+    padding: 20px 0;
+}
 
- 
 @media (max-width: 900px){
     .body__home__hi h1{
         font-size: calc(5vw);

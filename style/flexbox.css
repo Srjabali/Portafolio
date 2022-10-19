@@ -81,4 +81,25 @@ justify-content: center;
     gap: 10px;
 }
 
+/* formacion */
 
+.body__study{
+display: flex;
+}
+.body__study__ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.body__study__logos{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.body__study__lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
