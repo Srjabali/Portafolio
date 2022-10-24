@@ -41,11 +41,23 @@ body{
     margin-top: 1rem;
 
 }
+
 .header__nav{
     width: 100%;
     border-top: 1px solid #282828;
 }
-.header__nav__list a{
+
+.header__nav__list > a:hover{
+    color: #08fdd8;
+
+}
+
+.social__list > a:hover{
+    color: #08fdd8;
+    
+}
+
+.header__nav__list > a{
     width: 100%;
     display: block;
     text-decoration: none;  
@@ -55,7 +67,6 @@ body{
 }
 .header__social{
     height: 10rem;
-    gap: 10px;
 }
 .header__social a{
     width: 100%;
@@ -68,37 +79,54 @@ body{
 .body{
     width: 100%;
     overflow: auto;
+    scroll-behavior: smooth;
 }  
 .body>div{
     height: 100vh;
-    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-    background-blend-mode: multiply,multiply;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    padding: 0 100px 0 50px;
 }
-.body > div{
-    padding: 0 100px 0 40px;
-}
+
 .body__home__hi{
     text-align: start
 }
-.body__home__hi h1{
+.home__hi__h1{
     font-size: 5rem;
     font-weight: bold;
+    display: table;
 }
+span:hover {
+    color: #08fdd8;
+}
+
+
 .body__home img{
-    width: 220px;
+    background: grey;
+    border-radius: 150px;
+    border: 1px solid black;
+    width: 280px;
+    height: 280px;
 }
 
 /*body about */
 .body__about__my{
     text-align: start;
-    width: 50vw;
+    width: 36vw;
 }
 .body__about__my h1{
     font-size: 5rem;
     font-weight: bold;
 }
-.body__about img{
-    width: 220px;
+.body__intereses{
+    width: 40vw;
+    height: 90vh;
+}
+.body__intereses__list{
+    background: #203A43;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #282828;
+    padding: 10px;
 }
 
 /* body skills */
@@ -128,12 +156,14 @@ body{
     height: 100px;
     border: 1px solid #282828;
     padding: 10px;
+    background: #203A43;
 }
 .body__skills__list1{
     width: 300px;
     height: 300px;
     border: 1px solid #282828;
     padding: 20px;
+    background: #0F2027;
 
     text-align: start;
 }
@@ -151,20 +181,57 @@ h3{
 }
 /* formacion */
 .body__study > section{
-    width: 27rem;
+    width: 39rem;
+    height: 100vh;
 }
-.body__study__ul{
+.body__study__curso > h1{
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: start;
+}
+.body__study__curso__list{
+    text-align: start;
+ }
+ .body__study__logos{
+    padding-top: 80px;
+ }
+.body__study__logos__ul{
     height: 90vh;
 }
-.body__study__lista{
-    width: 350px;
-    height: 250px; 
+.body__study__logos__ul > li{
+    background: white;
+    width: 250px;
+    height: 200px; 
     border: 1px solid white;
 }
-.body__study__lista:nth-child(1) > img{
-    width: 332px;
+.body__study__lista1 > img{
+    width: 230px;
     padding: 20px 0;
 }
+.body__study__lista2 > img{
+    width: 130px;
+}
+.body__study__fecha{
+    padding-bottom: 30px;
+    text-align: start;
+}
+
+/* proyectos */
+
+.proyectos__sec{
+    height: 100%;
+}
+.proyectos__sec > h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.proyectos__ul{
+    padding-bottom: 100px;
+}
+.proyectos__list > img{
+    width: 35vw;
+}
+
 
 @media (max-width: 900px){
     .body__home__hi h1{
