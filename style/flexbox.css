@@ -1,6 +1,7 @@
 .contenedor {
     display: flex;
 }
+
 /* header */
 .header {
     display: flex;
@@ -13,6 +14,7 @@
     display: flex;
     gap: 10px;
 }
+
 /* body home */
 .body__home {
     display: flex;
@@ -28,62 +30,67 @@
 
 
 /* body about */
-.body__about{
+.body__about {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.body__about__my{
+.body__about__my {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.body__intereses{
+
+.body__intereses {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
 }
-.body__intereses__ul{
+
+.body__intereses__ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
 }
-.body__intereses__list{
+
+.body__intereses__list {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
     gap: 5px;
 }
+
 /* body skills */
-.body__skills{
+.body__skills {
     display: flex;
     align-items: center;
     gap: 40px;
 }
-.body__skills > section{
-display: flex;
-justify-content: center;
+
+.body__skills>section {
+    display: flex;
+    justify-content: center;
 }
 
-.body__skills__experience{
+.body__skills__experience {
 
     flex-direction: column;
     gap: 30px;
 }
 
 
-.body__skills__skills > ul{
+.body__skills__skills>ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.body__skills__list{
+.body__skills__list {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -91,12 +98,13 @@ justify-content: center;
     gap: 5px;
 }
 
-.body__skills__skills1 > ul{
+.body__skills__skills1>ul {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.body__skills__list1{
+
+.body__skills__list1 {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -104,35 +112,50 @@ justify-content: center;
 
 /* formacion */
 
-.body__study{
-display: flex;
-align-items: center;
+.body__study {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.body__study__curso{
+
+.body__study__curso {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.body__study__curso__ul{
+
+.study__curso__div__div {
+    display: flex;
+    gap: 10px;
+}
+
+.body__study__curso__ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.body__study__curso__list{
+
+.body__study__curso__list {
     display: flex;
     flex-direction: column;
 }
-.body__study__logos{
-display: flex;
-justify-content: center;
+
+.body__study__logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
-.body__study__logos__ul{
+
+.body__study__logos__ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
-.body__study__logos__ul > li{
+
+.body__study__logos__ul>li {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,20 +163,27 @@ justify-content: center;
 }
 
 /* proyectos */
-.proyectos__sec{
+.proyectos__sec {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.proyectos__ul{
+.proyectos__ul {
     display: flex;
     justify-content: space-around;
     gap: 10px;
 }
 
-.proyectos__list{
+.proyectos__list {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}  
+}
+
+/* contacto */
+.body__contacto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

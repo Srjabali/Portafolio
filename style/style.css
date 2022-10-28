@@ -84,7 +84,7 @@ body{
 .body>div{
     height: 100vh;
     background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
-    padding: 0 100px 0 50px;
+    padding: 0 140px 0 70px;
 }
 
 .body__home__hi{
@@ -95,17 +95,18 @@ body{
     font-weight: bold;
     display: table;
 }
-span:hover {
+
+.home_span:hover {
     color: #08fdd8;
 }
-
-
-.body__home img{
-    background: grey;
-    border-radius: 150px;
-    border: 1px solid black;
+.home__img{
+    padding-right: 10rem;
+}
+.home__img img{
+    border-radius: 30px;
+    border: 1px solid #0F2027;
     width: 280px;
-    height: 280px;
+    height: auto;
 }
 
 /*body about */
@@ -116,16 +117,27 @@ span:hover {
 .body__about__my h1{
     font-size: 5rem;
     font-weight: bold;
+    color: #08fdd8;
+}
+.body__about__my p{
+    font-size: 1.5rem;
 }
 .body__intereses{
     width: 40vw;
     height: 90vh;
+}
+.body__intereses h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #08fdd8;
+
 }
 .body__intereses__list{
     background: #203A43;
     width: 100px;
     height: 100px;
     border: 1px solid #282828;
+    border-radius: 10px;
     padding: 10px;
 }
 
@@ -149,12 +161,16 @@ span:hover {
 .body__skills__experience h1{
     font-size: 5rem;
     font-weight: bold;
+    color: #08fdd8;
 }
-
+.body__skills__experience{
+    font-size: 1.5rem;
+}
 .body__skills__list{
     width: 100px;
     height: 100px;
     border: 1px solid #282828;
+    border-radius: 10px;
     padding: 10px;
     background: #203A43;
 }
@@ -162,6 +178,7 @@ span:hover {
     width: 300px;
     height: 300px;
     border: 1px solid #282828;
+    border-radius: 30px;
     padding: 20px;
     background: #0F2027;
 
@@ -171,45 +188,83 @@ span:hover {
 .body__skills__list1 > h1{
     font-size: 2rem;
     font-weight: bold;
+    color: #08fdd8;
 }
 
 h2{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 h3{
     font-size: .8rem;
 }
 /* formacion */
-.body__study > section{
+.body__study__curso{
     width: 39rem;
     height: 100vh;
 }
+
 .body__study__curso > h1{
     font-size: 5rem;
     font-weight: bold;
     text-align: start;
+    color: #08fdd8;
+}
+.study__curso__div{
+    width: 49vw;
+    border: 1px solid #282828;
+    border-radius: 30px;
+    padding: 20px;
+    background: #0F2027;
+}
+.study__curso__div > h2{
+    padding-bottom: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #08fdd8;
+    text-align: start;
+}
+.body__study__fecha h2{
+    font-size: 1.5rem;
+    padding-bottom: 5px;
 }
 .body__study__curso__list{
+    width: 350px;
+    border: 1px solid #282828;
+    border-radius: 30px;
+    padding: 20px;
+    background: #203A43;
     text-align: start;
  }
  .body__study__logos{
-    padding-top: 80px;
+    width: 350px;
+    height: 600px;
+    border: 1px solid #282828;
+    border-radius: 30px;
+    padding: 20px;
+    background: #0F2027;
+ }
+ .body__study__logos h1{
+
+ font-size: 2rem;
+    font-weight: bold;
+    color: #08fdd8;
  }
 .body__study__logos__ul{
     height: 90vh;
 }
 .body__study__logos__ul > li{
     background: white;
-    width: 250px;
-    height: 200px; 
+    width: 220px;
+    height: 160px; 
     border: 1px solid white;
+    border-radius: 10px;
 }
 .body__study__lista1 > img{
-    width: 230px;
+    width: 180px;
     padding: 20px 0;
 }
 .body__study__lista2 > img{
-    width: 130px;
+    width: 110px;
 }
 .body__study__fecha{
     padding-bottom: 30px;
@@ -224,14 +279,79 @@ h3{
 .proyectos__sec > h1{
     font-size: 5rem;
     font-weight: bold;
+    color: #08fdd8;
 }
 .proyectos__ul{
     padding-bottom: 100px;
 }
+.proyectos__list{
+    border: 1px solid #282828;
+    border-radius: 30px;
+    padding: 20px;
+    background: #0F2027;
+}
 .proyectos__list > img{
     width: 35vw;
+    border-radius: 10px;
+}
+.input__btn{
+    background: #08fdd8;
+    color: #0F2027;
+    width: 15vw;
+    border: none;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 900;
 }
 
+/* contacto */
+.body__contacto{
+
+}
+.contacto > h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color: #08fdd8;
+}
+.form{
+    background: white;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+
+.form__field{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+}
+.form__container{
+    width: 100%;
+}
+.input{
+    width: 100%;
+    padding: .8em 1em;
+    outline: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2em;
+}
+.input__message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.input__button{
+    background: #08fdd8;
+    color: #0F2027;
+    border: none;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 900;
+}
 
 @media (max-width: 900px){
     .body__home__hi h1{

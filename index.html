@@ -1,295 +1,413 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Portafolio</title>
 
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/flexbox.css">
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/flexbox.css" />
 
     <!-- iconos link -->
-    <script src="https://kit.fontawesome.com/ea71e6fab6.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ea71e6fab6.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="contenedor">
-        <section class="header">
-            <header class="header__header">
-                <a class="menu__title" href="#home">
-                    <img src="pictures/jaba.png">
-                    <h1>Jabalí</h1>
-                </a>
-                <p>Web developer</p>
-            </header>
-            <nav class="header__nav">
-                <ul>
-                    <li class="header__nav__list"><a href="#about">Sobre mi</a></li>
-                    <li class="header__nav__list"><a href="#skills">Skills</a></li>
-                    <li class="header__nav__list"><a href="#formacion">Formación</a></li>
-                    <li class="header__nav__list"><a href="#proyectos">Proyectos</a></li>
-                    <li class="header__nav__list"><a href="#contacto">Contacto</a></li>
+      <section class="header">
+        <header class="header__header">
+          <a class="menu__title" href="#home">
+            <img src="pictures/jaba.png" />
+            <h1>Jabalí</h1>
+          </a>
+          <p>Web developer</p>
+        </header>
+        <nav class="header__nav">
+          <ul>
+            <li class="header__nav__list"><a href="#about">Sobre mi</a></li>
+            <li class="header__nav__list"><a href="#skills">Skills</a></li>
+            <li class="header__nav__list">
+              <a href="#formacion">Formación</a>
+            </li>
+            <li class="header__nav__list">
+              <a href="#proyectos">Proyectos</a>
+            </li>
+            <li class="header__nav__list"><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+        <ul class="header__social">
+          <li class="social__list">
+            <a href="https://linkedin.com/in/victoriquelme"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li class="social__list">
+            <a href="https://github.com/Srjabali"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+      <section class="body">
+        <div class="body__home" id="home">
+          <section class="body__home__hi">
+            <div class="body__home__hi__div">
+              <h1 class="home__hi__h1">
+                <span class="home_span">H</span>
+                <span class="home_span">i</span>
+                <span class="home_span">,</span>
+                <br />
 
-                </ul>
-            </nav>
-            <ul class="header__social">
-                <li class="social__list"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li class="social__list"><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                <span class="home_span">I</span>
+                <span class="home_span">'</span>
+                <span class="home_span">m</span>
+                <span>&nbsp;</span>
+                <span class="home_span">V</span>
+                <span class="home_span">i</span>
+                <span class="home_span">c</span>
+                <span class="home_span">t</span>
+                <span class="home_span">o</span>
+                <span class="home_span">r</span>
+                <span class="home_span">,</span>
+                <br />
+
+                <span class="home_span">S</span>
+                <span class="home_span">t</span>
+                <span class="home_span">u</span>
+                <span class="home_span">d</span>
+                <span class="home_span">e</span>
+                <span class="home_span">n</span>
+                <span class="home_span">t</span>
+                <br />
+
+                <span class="home_span">W</span>
+                <span class="home_span">e</span>
+                <span class="home_span">b</span>
+                <span>&nbsp;</span>
+                <span class="home_span">d</span>
+                <span class="home_span">e</span>
+                <span class="home_span">v</span>
+                <span class="home_span">e</span>
+                <span class="home_span">l</span>
+                <span class="home_span">o</span>
+                <span class="home_span">p</span>
+                <span class="home_span">e</span>
+                <span class="home_span">r</span>
+              </h1>
+            </div>
+            <p>Front End Developer / Electronic Engineer.</p>
+          </section>
+          <section class="home__img">
+            <img src="pictures/yo.jpeg" />
+          </section>
+        </div>
+
+        <div class="body__about" id="about">
+          <section class="body__about__my">
+            <h1>I'm, About me & Yo</h1>
+            <p>
+              Hola! Me llamo victor! Soy ingeniero electronico aqui en chile, me
+              estoy especializando en programacion. Desde siempre he querido
+              trabajar algo relacionado con lenguajes de programacion, cosa que
+              siempre he estado indagando sobre temas relacionado a él,
+              partiendo de robotica, controladores, microcontroladores, video
+              juegos, sistemas de comunicacion alambricay inalambrica, y
+              llegando ahora con lenguajes relacionado al backend y frondend.
+              <br />
+              <br />
+              Soy proactivo, metodico y optimista, me encanta trabajar en equipo
+              y escuchar buenas ideas para poder implementar en algun proyecto.
+            </p>
+          </section>
+          <section class="body__intereses">
+            <h1>Hobbies</h1>
+            <ul class="body__intereses__ul">
+              <li class="body__intereses__list">
+                <i class="fa-solid fa-music"></i>
+                <p>Música</p>
+              </li>
+              <li class="body__intereses__list">
+                <i class="fa-solid fa-book"></i>
+                <p>Leer</p>
+              </li>
+              <li class="body__intereses__list">
+                <i class="fa-sharp fa-solid fa-dumbbell"></i>
+                <p>Deporte</p>
+              </li>
+              <li class="body__intereses__list">
+                <i class="fa-solid fa-glasses"></i>
+                <p>Estudiar</p>
+              </li>
+              <li class="body__intereses__list">
+                <i class="fa-solid fa-language"></i>
+                <p>Idiomas</p>
+              </li>
             </ul>
-        </section>
-        <section class="body">
+          </section>
+        </div>
 
-            <div class="body__home" id="home">
-                <section class="body__home__hi">
-                    <div class="body__home__hi__div">
-                        <h1 class="home__hi__h1">
-                            
-                                <span>H</span>
-                                <span>i</span>
-                                <span>,</span>
-                            <br>
-                           
-                                <span>I</span>
-                                <span>'</span>
-                                <span>m</span>
-                                <span>&nbsp;</span>
-                                <span>V</span>
-                                <span>i</span>
-                                <span>c</span>
-                                <span>t</span>
-                                <span>o</span>
-                                <span>r</span>
-                                <span>,</span>
-                            <br>
-                            
-                                <span>S</span>
-                                <span>t</span>
-                                <span>u</span>
-                                <span>d</span>
-                                <span>e</span>
-                                <span>n</span>
-                                <span>t</span>
-                            <br>
-                            
-                                <span>W</span>
-                                <span>e</span>
-                                <span>b</span>
-                                <span>&nbsp;</span>
-                                <span>d</span>
-                                <span>e</span>
-                                <span>v</span>
-                                <span>e</span>
-                                <span>l</span>
-                                <span>o</span>
-                                <span>p</span>
-                                <span>e</span>
-                                <span>r</span>
-                            
-                        </h1>
-                    </div>
-                    <p>Front End Developer / Electronic Engineer.</p>
-                </section>
-                <img src="pictures/gato.svg">
+        <div class="body__skills" id="skills">
+          <section class="body__skills__experience">
+            <h1>Skills & Experiencia</h1>
+            <p>
+              La experiencia que tengo en programacion es con controladores,
+              robotica y video juegos (C++, RAPID, LADDER), desarrollando la
+              experiencia en logica y siempre buscando trabajos relacionado a la
+              programacion. El ultimo trabajo en que estuve era relacionado a
+              proyectos de industria 4.0, relacionandome con el tema de
+              comunicacion de equipos, programacion y backend. Al entrar al
+              mundo del backend aprendi a trabajar con el lenguaje SQL y NOSQL
+              conociendo bases de datos como MARIADB, MYSQL y MONGODB y
+              aprendiendo a trabajar distribuciones linux (Debian y Ubuntu). Hoy
+              en dia estoy impartiendo cursos y formaciones en un programa de
+              educacion Oracle alura Latam, aprendiendo ya temas relacionado al
+              frontend. Para futuro queriendo trabajar en una gran empresa
+              relacionado al mundo de la programacion (fronend, backend o
+              fullStack) y estar en un gran equipo, creciendo y disfrutando de
+              la vida programatica.
+            </p>
+          </section>
+          <section class="body__skills__skills">
+            <ul>
+              <li class="body__skills__list">
+                <i class="fa-brands fa-html5"></i>
+                <p>Html5</p>
+              </li>
+              <li class="body__skills__list">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>Css</p>
+              </li>
+              <li class="body__skills__list">
+                <i class="fa-brands fa-js"></i>
+                <p>Javascript</p>
+              </li>
+              <li class="body__skills__list">
+                <i class="fa-brands fa-python"></i>
+                <p>Python</p>
+              </li>
+              <li class="body__skills__list">
+                <i class="fa-solid fa-database"></i>
+                <p>SQL</p>
+              </li>
+            </ul>
+          </section>
+          <section class="body__skills__skills1">
+            <ul>
+              <li class="body__skills__list1">
+                <h1>hola</h1>
+                <div>
+                  <h2>kiu</h2>
+                  <h3>2012-2016</h3>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
+                  ipsa doloremque quia recusandae praesentium nostrum atque
+                  illum ducimus fuga quo tempore perferendis harum, ea dolorem
+                  numquam molestias cum ipsam saepe?
+                </p>
+              </li>
+              <li class="body__skills__list1">
+                <h1>chau</h1>
+                <div>
+                  <h2>kiu</h2>
+                  <h3>2012-2016</h3>
+                </div>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                  praesentium eligendi necessitatibus illo in deleniti nisi,
+                  quae earum libero ex, ut eos itaque excepturi iusto recusandae
+                  tempora, iste velit saepe!
+                </p>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="body__study" id="formacion">
+          <section class="body__study__curso">
+            <h1>Formación</h1>
+
+            <div class="study__curso__div">
+              <h2>Cursos</h2>
+              <div class="study__curso__div__div">
+                <ul class="body__study__curso__ul">
+                  <li class="body__study__curso__list">
+                    <h2>Schneider Learning Course</h2>
+                    <h3>2021</h3>
+                    <p>“EcoStruxure Plant: Altivar DriveIntegration on PLC”</p>
+                  </li>
+                  <li class="body__study__curso__list">
+                    <h2>Khan academy</h2>
+                    <h3>2021</h3>
+                    <p>“Programación de computadoras”</p>
+                  </li>
+                  <li class="body__study__curso__list">
+                    <h2>Game Maker Studio 2</h2>
+                    <h3>2020</h3>
+                    <p>“Programación de video juegos”</p>
+                  </li>
+                </ul>
+                <ul class="body__study__curso__ul">
+                  <li class="body__study__curso__list">
+                    <h2>Learn digital Google</h2>
+                    <h3>2020</h3>
+                    <p>“Desarrollo de Apps móviles”</p>
+                  </li>
+                  <li class="body__study__curso__list">
+                    <h2>RobotStudio</h2>
+                    <h3>2019</h3>
+                    <p>“Programación de brazo robótico”</p>
+                  </li>
+                  <li class="body__study__curso__list">
+                    <h2>Arduino</h2>
+                    <h3>2015</h3>
+                    <p>“Programación y control”</p>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </section>
+          <section class="body__study__logos">
+            <h1>Educacion superior</h1>
+            <ul class="body__study__logos__ul">
+              <li class="body__study__lista1">
+                <img src="pictures/inacap.png" alt="" />
+              </li>
+              <div class="body__study__fecha">
+                <h2>Ingenieria Electronica</h2>
+                <h3>2016-2020</h3>
+              </div>
+            </ul>
+            <h1>Cursando</h1>
+            <ul class="body__study__logos__ul">
+              <li class="body__study__lista2">
+                <img src="pictures/alura.png" alt="" />
+              </li>
+              <div class="body__study__fecha">
+                <h2>Web Developer</h2>
+                <h3>2022-Actualidad</h3>
+              </div>
+            </ul>
+          </section>
+        </div>
 
-            <div class="body__about" id="about">
-                <section class="body__about__my">
-                    <h1>I'm, About me & Yo</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quos, quidem aliquid provident
-                        debitis numquam ad iste culpa, consequatur eveniet veritatis quas vero, vitae necessitatibus
-                        fugiat Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, doloribus. Lorem ipsum
-                        dolor sit, amet consectetur adipisicing elit. Soluta repellat rem excepturi necessitatibus atque
-                        ipsam corrupti repudiandae, perspiciatis nesciunt quia.
-                        velit illum praesentium repudiandae?
-                    </p>
-                </section>
-                <section class="body__intereses">
-                    <h2>Hobbies</h2>
-                    <ul class="body__intereses__ul">
-                        <li class="body__intereses__list">
-                            <i class="fa-solid fa-music"></i>
-                            <p>Música</p>
-                        </li>
-                        <li class="body__intereses__list">
-                            <i class="fa-solid fa-book"></i>
-                            <p>Leer</p>
-                        </li>
-                        <li class="body__intereses__list">
-                            <i class="fa-sharp fa-solid fa-dumbbell"></i>
-                            <p>Deporte</p>
-                        </li>
-                        <li class="body__intereses__list">
-                            <i class="fa-sharp fa-solid fa-dumbbell"></i>
-                            <p>Estudiar</p>
-                        </li>
-                        <li class="body__intereses__list">
-                            <i class="fa-solid fa-language"></i>
-                            <p>Idiomas</p>
-                        </li>
-                    </ul>
-                </section>
+        <div class="body__proyectos" id="proyectos">
+          <section class="proyectos__sec">
+            <h1>Proyectos</h1>
+            <ul class="proyectos__ul">
+              <li class="proyectos__list">
+                <img src="pictures/encriptado.png" alt="" />
+                <div class="proyectos__button">
+                  <input
+                    type="button"
+                    class="input__btn"
+                    onclick="location.href='https://github.com/Srjabali/challenge_one_encrip';"
+                    value="Repositorio"
+                  />
+                  <input
+                    type="button"
+                    class="input__btn"
+                    onclick="location.href='https://srjabali.github.io/challenge_one_encrip/';"
+                    value="Ver demo"
+                  />
+                </div>
+              </li>
+              <li class="proyectos__list">
+                <img src="pictures/ahorcado.png" alt="" />
+                <div class="proyectos__button">
+                  <input
+                    type="button"
+                    class="input__btn"
+                    onclick="location.href='https://github.com/Srjabali/challenge_one_ahorcado';"
+                    value="Repositorio"
+                  />
+                  <input
+                    type="button"
+                    class="input__btn"
+                    onclick="location.href='https://srjabali.github.io/challenge_one_ahorcado/';"
+                    value="Ver demo"
+                  />
+                </div>
+              </li>
+            </ul>
+          </section>
+        </div>
 
-            </div>
+        <div class="body__contacto" id="contacto">
+          <div class="contacto">
+            <h1>Contacto</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero,
+              quisquam?
+            </p>
+          </div>
 
-            <div class="body__skills" id="skills">
-                <section class="body__skills__experience">
-                    <h1>Skills & Experiencia</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus commodi explicabo dolores
-                        temporibus nostrum necessitatibus nesciunt. Eos hic labore accusamus dolorum, animi soluta atque
-                        sit distinctio quibusdam itaque dicta.
-                        Consequatur beatae provident modi culpa aut. Ratione quas, quis inventore dolore architecto at
-                        temporibus atque id! Soluta, voluptates. Ullam, repellat dolorem. Quae iste minus ullam
-                        molestias, blanditiis beatae officiis maxime!
-                        Maxime quam eum libero facere beatae debitis minus officia vel eveniet eligendi, ipsum id, sunt,
-                        suscipit illum placeat obcaecati consequatur sed voluptate voluptas repellendus quis facilis
-                        laboriosam aperiam. Delectus, corrupti?
-                        Saepe praesentium vitae reprehenderit, ab numquam neque animi velit minus labore adipisci sed
-                        modi, minima obcaecati iusto dignissimos perspiciatis. Consequatur labore aut aperiam
-                        accusantium illum alias et facere voluptatem aliquid?
-                        Autem accusantium dolor reprehenderit eveniet hic cumque deserunt cupiditate qui repellat
-                        distinctio amet nostrum quibusdam, aspernatur ullam molestiae error quam saepe fugiat ex nemo!
-                        Possimus voluptatibus dolorem maxime reiciendis deleniti?
-                    </p>
-                </section>
-                <section class="body__skills__skills">
-                    <ul>
-                        <li class="body__skills__list">
-                            <i class="fa-brands fa-html5"></i>
-                            <p>Html5</p>
-                        </li>
-                        <li class="body__skills__list">
-                            <i class="fa-brands fa-css3-alt"></i>
-                            <p>Css</p>
-                        </li>
-                        <li class="body__skills__list">
-                            <i class="fa-brands fa-js"></i>
-                            <p>Javascript</p>
-                        </li>
-                        <li class="body__skills__list">
-                            <i class="fa-brands fa-python"></i>
-                            <p>Python</p>
-                        </li>
-                        <li class="body__skills__list">
-                            <i class="fa-solid fa-database"></i>
-                            <p>SQL</p>
-                        </li>
-                    </ul>
-                </section>
-                <section class="body__skills__skills1">
-                    <ul>
-                        <li class="body__skills__list1">
-                            <h1>hola</h1>
-                            <div>
-                                <h2>kiu</h2>
-                                <h3>2012-2016</h3>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad ipsa doloremque quia
-                                recusandae praesentium nostrum atque illum ducimus fuga quo tempore perferendis harum,
-                                ea dolorem numquam molestias cum ipsam saepe?
-                            </p>
-                        </li>
-                        <li class="body__skills__list1">
-                            <h1>chau</h1>
-                            <div>
-                                <h2>kiu</h2>
-                                <h3>2012-2016</h3>
-                            </div>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas praesentium eligendi
-                                necessitatibus illo in deleniti nisi, quae earum libero ex, ut eos itaque excepturi
-                                iusto recusandae tempora, iste velit saepe!</p>
-                        </li>
-                    </ul>
-                </section>
-            </div>
-
-            <div class="body__study" id="formacion">
-
-                <section class="body__study__curso">
-                    <h1>Formación</h1>
-                    <ul class="body__study__curso__ul">
-                        <li class="body__study__curso__list">
-
-                            <h2>hola</h2>
-                            <h3>2021</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nam?</p>
-                        </li>
-                        <li class="body__study__curso__list">
-                            <h2>hola</h2>
-                            <h3>2012</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, voluptate.</p>
-                        </li>
-                        <li class="body__study__curso__list">
-                            <h2>hola</h2>
-                            <h3>2012</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, maiores?</p>
-                        </li>
-                        <li class="body__study__curso__list">
-                            <h2></h2>
-                            <h3></h3>
-                            <p></p>
-                        </li>
-                        <li class="body__study__curso__list">
-                            <h2></h2>
-                            <h3></h3>
-                            <p></p>
-                        </li>
-                    </ul>
-                </section>
-                <section class="body__study__logos">
-                    <ul class="body__study__logos__ul">
-                        <li class="body__study__lista1"><img src="pictures/inacap.png" alt=""></li>
-                        <div class="body__study__fecha">
-                            <h2>kiu</h2>
-                            <h3>2012-2016</h3>
-                        </div>
-                        <li class="body__study__lista2"><img src="pictures/alura.png" alt=""></li>
-                        <div class="body__study__fecha">
-                            <h2>kiu</h2>
-                            <h3>2012-2016</h3>
-                        </div>
-                    </ul>
-
-                </section>
-
-            </div>
-
-            <div class="body__proyectos" id="proyectos">
-                <section class="proyectos__sec">
-                    <h1>Proyectos</h1>
-                    <ul class="proyectos__ul">
-                        <li class="proyectos__list">
-                            <img src="pictures/encriptado.png" alt="">
-                            <div class="proyectos__button">
-                                <input type="button" onclick="location.href='https://github.com/Srjabali/challenge_one_encrip';" value="Repositorio" />
-                                <input type="button" onclick="location.href='https://srjabali.github.io/challenge_one_encrip/';" value="Ver demo" />    
-                            </div>
-                        </li>
-                        <li class="proyectos__list">
-                            <img src="pictures/ahorcado.png" alt="">
-                            <div class="proyectos__button">
-                                <input type="button" onclick="location.href='https://github.com/Srjabali/challenge_one_ahorcado';" value="Repositorio" />
-                                <input type="button" onclick="location.href='https://srjabali.github.io/challenge_one_ahorcado/';" value="Ver demo" />
-                            </div>
-                        </li>
-                    </ul>
-                </section>
-                
-                
-
-            </div>
-        </section>
-
+          <form class="form" id="form">
+            <fieldset class="form__field">
+              <div class="form__container">
+                <input
+                  type="text"
+                  name="name"
+                  class="input"
+                  id="name"
+                  placeholder="Nombre"
+                  required
+                />
+              </div>
+              <div class="form__container">
+                <input
+                  type="email"
+                  name="email"
+                  class="input"
+                  id="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="form__container">
+                <input
+                  type="text"
+                  name="phoneNumber"
+                  class="input"
+                  id="phoneNumber"
+                  placeholder="Telefono"
+                  required
+                />
+              </div>
+              <div class="form__container">
+                <textarea
+                  name="mensaje"
+                  class="input input__message"
+                  id="mensaje"
+                  required
+                ></textarea>
+              </div>
+              <div class="form__container">
+                <input
+                  type="submit"
+                  value="Enviar"
+                  class="input input__button"
+                />
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
     </div>
-
-</body>
-
+    <script src="./js/contacto.js"></script>
+  </body>
 </html>
