@@ -1,0 +1,162 @@
+@media (max-width: 1300px) {
+    .body>div {
+    padding: 0px 70px 0 50px;
+    }
+    /* home */
+    .body__home__hi h1 {
+        font-size: calc(6vw);
+    }
+
+    .body__home img {
+        width: calc(25vw);
+    }
+/* about me */
+
+    .body__about img {
+        width: calc(25vw);
+    }
+
+    .body__about__my h1 {
+        font-size: calc(5vw);
+    }
+
+    .body__about__my p {
+        font-size: calc(1.5vw);
+    }
+/* skills */
+    .body__skills__experience h1 {
+        font-size: calc(5vw);
+    }
+
+    .body__skills__experience p {
+        font-size: calc(1.5vw);
+    }
+
+    .body__skills__list1 {
+        width: calc(25vw);
+    }
+/* study */
+    .body__study__curso h1 {
+        font-size: calc(5vw);
+    }
+    .study__curso__div > h2{
+        font-size: 2.5vw;
+    }
+    
+    .study__curso__div {
+        width: 46vw;
+    }
+    .body__study__curso__list{
+        width: 20vw;
+    }
+    .body__study__logos h1{
+        font-size: 2.5vw;
+
+    }
+    .body__study__fecha h2{
+        font-size: 1.5vw;
+    }
+    /* proyectos */
+    .proyectos__sec h1{
+        font-size: calc(5vw);
+    }
+    /* contacto */
+    .contacto > h1{
+        font-size: calc(5vw);
+    }
+}
+
+@media (max-width: 900px){
+    .header{
+        display: none;
+    }
+    .header__cellphone{
+        display: block;
+        width: 50px;
+        height: 50px;
+    }
+ 
+    .body > div{
+        padding: 30px 0px 30px 20px;
+    }
+
+    .cellphone__div{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .aparece-header{
+        display: block;
+        width: 100%;
+    }
+
+    .exe_btn{
+        display: none;
+    }
+    .aparece-exe{
+        display: block;
+    }
+    .aparece-burger{
+        display: none;
+    }
+    .aparece-body{
+        display: none;
+    }
+
+    /* inicio */
+    .body__home{
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+    .body__home__hi h1 {
+        font-size: calc(12vw);
+    }
+    .home__img{
+        display: flex;
+    width: 100%;
+    padding-right: 0px;
+    justify-content: center;
+    }
+    .body__home img {
+        width: calc(50vw);
+    }
+    /* sobre mi */
+    .body__about__my {
+       
+        width: auto;
+    }
+    .body__about__my {
+        text-align: start;
+        width: auto;
+    }
+    .body__about__my h1 {
+        font-size: calc(11vw);
+    }
+    .body__about__my p {
+        font-size: calc(4.5vw);
+    }
+    .body__about{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .body__intereses {
+        width: auto;
+        height: auto;
+    }
+    .body__intereses__ul {
+        
+        flex-wrap: nowrap;
+       
+    }
+    .body__intereses__list{
+        width: 15vw;
+        height: auto;    
+    }
+    .body__intereses__list p {
+        font-size: 3vw;
+    }
+
+}

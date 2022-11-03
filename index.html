@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style/reset.css" />
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/flexbox.css" />
+    <link rel="stylesheet" href="style/media.css" />
 
     <!-- iconos link -->
     <script
@@ -28,7 +29,7 @@
 
   <body>
     <div class="contenedor">
-      <section class="header">
+      <section class="header" id="nav">
         <header class="header__header">
           <a class="menu__title" href="#home">
             <img src="pictures/jaba.png" />
@@ -62,7 +63,8 @@
           </li>
         </ul>
       </section>
-      <section class="body">
+
+      <section class="body" id="body">
         <div class="body__home" id="home">
           <section class="body__home__hi">
             <div class="body__home__hi__div">
@@ -407,6 +409,15 @@
           </form>
         </div>
       </section>
+
+      <!-- cellphone header -->
+      <section class="header__cellphone">
+        <div class="cellphone__div">
+          <a class="" id="burger_btn"><i class="fa-solid fa-bars"></i></a>
+          <a class="exe_btn" id="exe_btn"><i class="fa-solid fa-x"></i></a>
+        </div>
+      </section>
+
     </div>
     <script src="./js/contacto.js"></script>
   </body>
