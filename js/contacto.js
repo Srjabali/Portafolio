@@ -14,8 +14,7 @@ const header = document.querySelector('.header');
 const body = document.querySelector('#body');
 const nav = document.querySelector("#nav")
 
-
-burgerBtn.addEventListener('click', () =>{
+const allButton = addEventListener('click', () =>{
     body.classList.toggle("aparece-body")
     header.classList.toggle("aparece-header");
     exeBtn.classList.toggle("aparece-exe")
@@ -23,18 +22,6 @@ burgerBtn.addEventListener('click', () =>{
     
 });
 
-exeBtn.addEventListener('click', ()=>{
-    body.classList.toggle("aparece-body")
-    header.classList.toggle("aparece-header");
-    exeBtn.classList.toggle("aparece-exe")
-    burgerBtn.classList.toggle("aparece-burger")
-    
-});
-
-nav.addEventListener('click', ()=>{
-    body.classList.toggle("aparece-body")
-    header.classList.toggle("aparece-header");
-    exeBtn.classList.toggle("aparece-exe")
-    burgerBtn.classList.toggle("aparece-burger")
-    
-})
+burgerBtn.allButton;
+exeBtn.allButton;
+nav.allButton;

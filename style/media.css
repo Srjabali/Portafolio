@@ -66,14 +66,14 @@
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 920px){
     .header{
         display: none;
     }
     .header__cellphone{
         display: block;
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
  
     .body > div{
@@ -124,8 +124,14 @@
         width: calc(50vw);
     }
     /* sobre mi */
-    .body__about__my {
-       
+
+    .body__about{
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .body__about__my{
+    
         width: auto;
     }
     .body__about__my {
@@ -138,25 +144,176 @@
     .body__about__my p {
         font-size: calc(4.5vw);
     }
-    .body__about{
-        flex-direction: column;
-        gap: 20px;
-    }
+
     .body__intereses {
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 25vh;
+
+        justify-content: space-evenly;
     }
-    .body__intereses__ul {
-        
-        flex-wrap: nowrap;
-       
-    }
+
     .body__intereses__list{
-        width: 15vw;
+        width: 20vw;
         height: auto;    
+    }
+    .body__intereses h1 {
+    font-size: 8vw;
     }
     .body__intereses__list p {
         font-size: 3vw;
     }
+/* experience */
+body .body__skills{
+    height: 154vh;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.body__skills__experience{
+    width: auto;
+}
+.body__skills__skills>ul {
 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.body__skills__list p{
+    font-size: 3vw; 
+}
+
+
+
+.body__skills__experience h1 {
+    font-size: calc(11vw);
+}
+.body__skills__experience p {
+    font-size: calc(4.5vw);
+}
+
+.body__skills > .body__skills__skills {
+    width: 100%;
+    height: 25vh;
+    justify-content: space-evenly;
+}
+.body__skills > section {
+    height: auto;
+}
+.body__skills__list {
+    width: 20vw;
+    height: auto;
+}
+
+.body__skills > .body__skills__skills1{
+    width: 100%;
+    height: 100vh;
+    
+}  
+
+.body__skills__skills1>ul {
+    
+    width: 100%;
+    display: block;
+       
+}
+.body__skills__list1{
+    width: 100%;
+    height: 40vh;
+}
+
+/* formacion */
+
+.body > .body__study{
+    height: 195vh;
+}
+.body__study__curso h1{
+    font-size: calc(11vw);
+}
+.body__study{
+    flex-direction: column;
+}
+.body__study__curso{
+    width: 100%;
+    gap: 10px;
+    
+}
+.study__curso__div{
+    width: 100%;
+}
+.study__curso__div > h2{
+    font-size: 8vw;
+}
+
+.body__study__curso__ul{
+    width: 50%;
+}
+.body__study__curso__list{
+    width: 100%;
+    gap: 5px;
+}
+.body__study__curso__list h2{
+    font-size: calc(5vw);;
+}
+.body__study__curso__list h3{
+    font-size: calc(3vw);;
+}
+.body__study__curso__list p{
+    font-size: calc(3.5vw);;
+}
+.body__study__logos {
+    width: 100%;
+    height: 90vh;
+    
+}
+.body__study__logos h1 {
+    font-size: 6.5vw;
+}
+.body__study__fecha h2 {
+    font-size: 4.5vw;
+}
+
+/* proyectos */
+.proyectos__sec{
+    gap: 30px;
+}
+.proyectos__sec h1 {
+    font-size: calc(11vw);
+    text-align: start;
+}
+.proyectos__ul {
+    flex-direction: column;
+    gap: 40px;
+}
+.proyectos__list > img {
+    width: 100%;
+}
+.input__btn {
+
+    width: 40%;
+
+}
+
+.proyectos__list h1{
+    font-size: calc(6vw);
+    color: #08fdd8;
+}
+/* contacto */
+.body__contacto{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contacto h1{
+    font-size: 11vw;
+}
+.body > .body__contacto{
+    height: 100vh;
+}
 }
